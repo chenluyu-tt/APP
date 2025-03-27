@@ -10,10 +10,9 @@ st.title("Guess what is my xingzuo")
 
 # List to store guesses (only 1 guess)
 guess = st.text_input("What's my xingzuo?", key="guess_0")
-
-    if st.button("Check My Answer"):
-        if guess.strip().lower() == my_星座.lower():
-            st.success("✅ Correct! You guessed my xingzuo!")
-        else:
-            st.error("❌ Sorry! That's not my xingzuo.")
+if st.button("Check My Answer"):
+    if guess.strip().lower() == my_星座.lower():
+        st.success("✅ Correct! You guessed my xingzuo!")
+    else:
+        st.error("❌ Sorry! That's not my xingzuo.")
 
