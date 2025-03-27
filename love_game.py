@@ -10,8 +10,8 @@ st.title("🧠 Who Is Your Best Friend?")
 guesses = []
 
 # For loop to ask multiple times
-for i in range(int(tries)):
-    guess = st.text_input(f"Attempt {i+1}: What's your best friend's name?", key=f"guess_{i}")
+
+    guess = st.text_input(f"Attempt {i+1}: What's your best friend's name?", key=0)
     guesses.append(guess)
 
 # Button to check answers
