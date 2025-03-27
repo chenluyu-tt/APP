@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 my_xingzuo="射手"
 st.title("Guess what is my xingzuo")
 tries = st.number_input("How many tries?", min_value=1, max_value=5, value=3)
