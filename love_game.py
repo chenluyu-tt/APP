@@ -4,7 +4,7 @@ import streamlit as st
 my_name = "Brigitta"
 
 # Title
-st.title("🧠 Who Is My Best Friend?")
+st.title("🧠 Who Is Your Best Friend?")
 
 # Ask how many times to try
 tries = st.number_input("How many times do you want to try?", min_value=1, max_value=5, value=3)
