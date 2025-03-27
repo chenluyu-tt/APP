@@ -11,8 +11,8 @@ guesses = []
 
 # For loop to ask multiple times
 
-    guess = st.text_input(f"Attempt {i+1}: What's your best friend's name?", key=0)
-    guesses.append(guess)
+guess = st.text_input(f"Attempt {i+1}: What's your best friend's name?", key=0)
+guesses.append(guess)
 
 # Button to check answers
 if st.button("Check My Answers"):
